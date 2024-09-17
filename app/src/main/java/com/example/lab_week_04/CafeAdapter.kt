@@ -10,7 +10,6 @@ val TABS_FIXED = listOf(
     R.string.janjijiwa_title,
     R.string.kopikenangan_title,
 )
-
 class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
     FragmentStateAdapter(fragmentManager, lifecycle) {
     override fun getItemCount(): Int {
